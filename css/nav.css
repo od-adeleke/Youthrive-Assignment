@@ -1,0 +1,13 @@
+/* Styles for the navigation bar */
+nav {
+    background-color: black;
+    padding: 1rem ;
+    font-size: 20px;
+}
+
+/* Styles for navigation links */
+nav > a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 2rem; /* Add some space between links */
+}

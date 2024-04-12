@@ -1,0 +1,64 @@
+/* Set dimensions and margins for the body */
+body {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+}
+
+/* Style links within the article */
+article a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+/* Set margins for the article content */
+article {
+    margin: 1rem 2rem;
+}
+
+/* Style the image within the article */
+article > img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the headings within the article */
+article > h1 {
+    font-size: 40px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+article > h2 {
+    font-size: 25px;
+}
+
+article > h3 {
+    font-size: small;
+}
+
+/* Style the unordered list */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the list items */
+li {
+    font-style: italic;
+    border: 1px solid black;
+    padding: .5rem;
+    margin-left: 1rem;
+}
+
+/* Style the footer */
+footer {
+    padding: .1rem;
+    background-color: #000000;
+    color: #ffff;
+    text-align: center;
+}
